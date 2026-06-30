@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-index</title>
+    <style>
+        .container {
+            position: relative;
+        }
+
+        .black-box {
+            position: relative;
+            z-index: 1;
+            background-color: black;
+            border: 2px solid black;
+            height: 150px;
+            margin: 30px;
+        }
+        .gray-box {
+            position: absolute;
+            z-index: 2;
+            background-color: lightgray;
+            height: 150px;
+            width: 80%;
+            left: 70px;
+            top: 70px;
+        }
+
+        .green-box {
+            position: absolute;
+            z-index: 3;
+            background-color: lightgreen;
+            height: 150px;
+            width: 35%;
+            left: 270px;
+            top: -15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="black-box">Black box</div>
+        <div class="gray-box">Gray Box</div>
+        <div class="green-box">Green Box</div>
+    </div>
+</body>
+</html>

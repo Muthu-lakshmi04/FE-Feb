@@ -1,0 +1,35 @@
+/*Universal Selector*/
+* {
+    font-style: italic;
+    color: blueviolet;
+}
+
+/* Type/Tag Selector */
+p {
+    background-color: pink;
+    color: blueviolet;
+}
+
+h3 {
+    text-align: center;
+}
+
+#para {
+      text-align: center;
+}
+
+/* Class Selector*/
+.redpara {
+    color: purple;
+}
+
+.line {
+    text-decoration: underline;
+}
+
+/* Group Selector */
+h1, h3, h5 {
+    background-color: rosybrown;
+}
+
+/* Attribute Selector */
